@@ -20,16 +20,18 @@ $CONFIG = array (
   'overwritehost' => 'noibo.canhdongvang.vn',
   'overwriteprotocol' => 'https',
   'overwrite.cli.url' => 'https://noibo.canhdongvang.vn',
-  'memcache.local' => '\\OC\\Memcache\\APCu',
-  'memcache.distributed' => '\\OC\\Memcache\\Redis',
-  'memcache.locking' => '\\OC\\Memcache\\Redis',
   'redis' => 
   array (
-    'host' => 'nextcloud2026-redis-1',
+    'host' => 'redis',
     'port' => 6379,
     'timeout' => 1.5,
     'dbindex' => 0,
   ),
+  'filesystem_check_changes' => 0,
+  'filelocking.enabled' => true,
+  'memcache.local' => '\\OC\\Memcache\\APCu',
+  'memcache.distributed' => '\\OC\\Memcache\\Redis',
+  'memcache.locking' => '\\OC\\Memcache\\Redis',
   'apps_paths' => 
   array (
     0 => 
