@@ -63,4 +63,8 @@ $CONFIG = array (
   'remember_login_cookie_lifetime' => 60*60*24*15,
   'session_lifetime' => 60*60*24,
   'session_keepalive' => true,
-  'overwrite.cli.url' => 'https://noibo.canhdongvang.vn',
+  'app_install_overwrite' => 
+  array (
+    0 => 'privatedata',
+  ),
+);
